@@ -2,19 +2,6 @@
 import * as d3 from 'd3'
 import './styles.scss'
 
-//selection.select("body").append("h1").text("Hello, world!");
-//let svg = selection.select('svg#plot')
-//var svg = d3.select("svg#plot"),
-//  margin = {top: 20, right: 20, bottom: 30, left: 50},
-//  width = +svg.attr("width") - margin.left - margin.right,
-//  height = +svg.attr("height") - margin.top - margin.bottom,
-//  g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-////let svg = selection.select('svg#plot')
-//var y = d3.scaleLinear()
-//    .rangeRound([height, 0]);
-////console.log('y ', y)
-
-
 
 var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 30, left: 50},

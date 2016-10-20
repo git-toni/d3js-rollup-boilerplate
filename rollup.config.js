@@ -1,11 +1,8 @@
 import node from "rollup-plugin-node-resolve";
 import sass from 'rollup-plugin-sass';
 
-  //output: 'bundle.css'
-  //output: function (styles, styleNodes) {
-  //  writeFileSync('build/bundle.css', styles)
-  //}
-let scssOpt = { // Default behaviour is to write all styles to the bundle destination where .js is replaced by .css
+let scssOpt = { 
+  // Default behaviour is to write all styles to the bundle destination where .js is replaced by .css
   output: "build/bundle.css"
 }
 
